@@ -1,0 +1,13 @@
+name: Imp
+version: '${project.version}'
+main: io.wdsj.imp.Imp
+api-version: '1.13'
+load: STARTUP
+folia-supported: true
+softdepend:
+  - ProtocolLib
+  - ProtocolSupport
+  - ViaVersion
+  - ViaBackwards
+  - ViaRewind
+  - Geyser-Spigot
